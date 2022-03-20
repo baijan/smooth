@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/smooth.dart/page2.dart';
 import 'package:flutter_application_1/smooth.dart/page3.dart';
@@ -22,7 +21,7 @@ class HomePage extends StatelessWidget {
             height: 100,
             child: PageView(
               controller: _controller,
-              children: [
+              children: const [
                 Page1(),
                 Page2(),
                 Page3(),
