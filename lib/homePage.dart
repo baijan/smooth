@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           SizedBox(
-            height: 100,
+            height: 500,
             child: PageView(
               controller: _controller,
               children: const [
